@@ -1,0 +1,6 @@
+node_modules
+dist
+*.local
+.playwright-mcp
+.spectra/
+openspec/.vector-search.db*

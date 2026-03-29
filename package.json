@@ -1,0 +1,23 @@
+{
+  "name": "h90-lens",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "python3 scripts/generate_llms_txt.py",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.31"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "autoprefixer": "^10.4.27",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.3"
+  }
+}
