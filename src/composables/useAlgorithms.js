@@ -75,6 +75,14 @@ export function useAlgorithms() {
     return allAlgorithms.value.find((a) => a.name === name)
   }
 
+  function toSlug(name) {
+    return name.toLowerCase().replace(/\s+/g, '-')
+  }
+
+  function getAlgorithmBySlug(slug) {
+    return allAlgorithms.value.find((a) => toSlug(a.name) === slug)
+  }
+
   return {
     allAlgorithms,
     filteredAlgorithms,
@@ -88,5 +96,7 @@ export function useAlgorithms() {
     setSearch,
     toggleCategory,
     getAlgorithmByName,
+    toSlug,
+    getAlgorithmBySlug,
   }
 }

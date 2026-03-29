@@ -7,6 +7,16 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['close'])
+const copied = ref(false)
+let copyTimeout = null
+
+function copyLink() {
+  navigator.clipboard.writeText(window.location.href).then(() => {
+    copied.value = true
+    clearTimeout(copyTimeout)
+    copyTimeout = setTimeout(() => { copied.value = false }, 2000)
+  })
+}
 const modalRef = ref(null)
 let previousFocus = null
 
@@ -26,6 +36,7 @@ watch(() => props.algo, async (newVal) => {
 
 onUnmounted(() => {
   document.removeEventListener('keydown', trapFocus)
+  clearTimeout(copyTimeout)
 })
 
 function trapFocus(e) {
@@ -80,13 +91,26 @@ function onOverlayClick(e) {
               </div>
               <p class="text-xs text-muted uppercase tracking-widest mt-1 ml-8">{{ algo.category }} // H90</p>
             </div>
-            <button
-              aria-label="Close dialog"
-              class="text-muted hover:text-white transition-colors cursor-pointer text-2xl leading-none"
-              @click="emit('close')"
-            >
-              &times;
-            </button>
+            <div class="flex items-center gap-2">
+              <button
+                :aria-label="copied ? 'Link copied' : 'Copy link to this algorithm'"
+                :class="[
+                  'w-8 h-8 rounded-lg flex items-center justify-center transition-colors cursor-pointer',
+                  copied ? 'bg-green-500/15 text-green-400' : 'text-muted hover:text-accent hover:bg-white/5'
+                ]"
+                @click="copyLink"
+              >
+                <svg v-if="!copied" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                <svg v-else xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </button>
+              <button
+                aria-label="Close dialog"
+                class="text-muted hover:text-white transition-colors cursor-pointer text-2xl leading-none"
+                @click="emit('close')"
+              >
+                &times;
+              </button>
+            </div>
           </div>
 
           <!-- Overview -->

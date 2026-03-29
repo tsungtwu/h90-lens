@@ -1,7 +1,7 @@
 {
   "name": "h90-lens",
   "version": "1.0.0",
-  "description": "",
+  "description": "Quick reference for all 76 Eventide H90 algorithms across 12 categories",
   "private": true,
   "type": "module",
   "scripts": {

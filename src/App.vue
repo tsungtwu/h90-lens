@@ -17,17 +17,35 @@ const {
   setSearch,
   toggleCategory,
   getAlgorithmByName,
+  toSlug,
+  getAlgorithmBySlug,
 } = useAlgorithms()
 
 const searchBar = ref(null)
 const detailAlgo = ref(null)
 
 function openDetail(name) {
-  detailAlgo.value = getAlgorithmByName(name)
+  const algo = getAlgorithmByName(name)
+  if (!algo) return
+  detailAlgo.value = algo
+  window.location.hash = `algo=${toSlug(algo.name)}`
 }
 
 function closeDetail() {
   detailAlgo.value = null
+  history.replaceState(null, '', window.location.pathname + window.location.search)
+}
+
+function openDetailFromHash() {
+  const hash = window.location.hash
+  const match = hash.match(/^#algo=(.+)$/)
+  if (!match) return
+  const algo = getAlgorithmBySlug(decodeURIComponent(match[1]))
+  if (algo) {
+    detailAlgo.value = algo
+  } else {
+    history.replaceState(null, '', window.location.pathname + window.location.search)
+  }
 }
 
 function onKeydown(e) {
@@ -44,12 +62,15 @@ function onKeydown(e) {
   }
 }
 
-onMounted(() => {
-  loadAlgorithms()
+onMounted(async () => {
+  await loadAlgorithms()
+  openDetailFromHash()
+  window.addEventListener('hashchange', openDetailFromHash)
   document.addEventListener('keydown', onKeydown)
 })
 
 onUnmounted(() => {
+  window.removeEventListener('hashchange', openDetailFromHash)
   document.removeEventListener('keydown', onKeydown)
 })
 </script>
