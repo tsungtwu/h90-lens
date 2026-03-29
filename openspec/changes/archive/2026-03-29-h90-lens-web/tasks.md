@@ -59,5 +59,5 @@
 ## 7. Deployment
 
 - [x] 7.1 Verify `npm run build` produces correct `dist/` output
-- [ ] 7.2 Configure GitHub Pages deployment (GitHub Actions or gh-pages branch)
+- [x] 7.2 Configure GitHub Pages deployment (GitHub Actions + custom domain h90-lens.tsungtwu.dev)
 - [x] 7.3 Verify base path `/h90-lens/` works correctly for all assets and data fetch
