@@ -120,7 +120,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate llms.md files from algorithms.json")
     parser.add_argument("--json", default="data/algorithms.json", help="Input JSON path")
     parser.add_argument("--out-dir", default="public", help="Output directory")
-    parser.add_argument("--base-url", default="/h90-lens/", help="Base URL for links in llms.md")
+    parser.add_argument("--base-url", default="/", help="Base URL for links in llms.md")
     args = parser.parse_args()
 
     project_root = Path(__file__).resolve().parent.parent

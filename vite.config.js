@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
-  base: '/h90-lens/',
+  base: '/',
   build: {
     outDir: 'dist',
   },

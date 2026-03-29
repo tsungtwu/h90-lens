@@ -26,7 +26,7 @@ names, descriptions, value ranges, and performance parameters.
 
 ## Links
 
-- [Full algorithm data (Markdown)](/h90-lens/llms-full.md)
-- [Algorithm data (JSON)](/h90-lens/data/algorithms.json)
-- [Web interface](/h90-lens/)
+- [Full algorithm data (Markdown)](/llms-full.md)
+- [Algorithm data (JSON)](/data/algorithms.json)
+- [Web interface](/)
 - [Eventide H90 Manual](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/index.html)

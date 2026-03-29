@@ -12,7 +12,7 @@
 
 Browse 76 algorithms across 12 categories with instant search, parameter details, and full manual descriptions — all in a lightweight static site.
 
-[Live Site](https://tsungtwu.github.io/h90-lens/) | [H90 Manual](https://cdn.eventideaudio.com/manuals/h90/latest/content/algorithms/index.html)
+[Live Site](https://h90-lens.tsungtwu.dev) | [H90 Manual](https://cdn.eventideaudio.com/manuals/h90/latest/content/algorithms/index.html)
 
 </div>
 
@@ -42,7 +42,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173/h90-lens/
+Open http://localhost:5173/
 
 ---
 
@@ -106,7 +106,7 @@ h90-lens/
 │   ├── update_algorithms.py         # Extract data from H90 manual
 │   └── generate_llms_txt.py         # Generate markdown from JSON
 ├── data/algorithms.json             # Source data (edit here)
-├── vite.config.js                   # Vite + Vue + Tailwind, base: '/h90-lens/'
+├── vite.config.js                   # Vite + Vue + Tailwind, base: '/'
 └── index.html                       # Entry point with CSP meta tag
 ```
 
@@ -124,9 +124,9 @@ h90-lens/
 
 | URL | Format | Description |
 |-----|--------|-------------|
-| `/h90-lens/llms.md` | Markdown | Site overview + links |
-| `/h90-lens/llms-full.md` | Markdown | All 76 algorithms with full parameter details |
-| `/h90-lens/data/algorithms.json` | JSON | Structured algorithm data |
+| `/llms.md` | Markdown | Site overview + links |
+| `/llms-full.md` | Markdown | All 76 algorithms with full parameter details |
+| `/data/algorithms.json` | JSON | Structured algorithm data |
 
 ---
 
