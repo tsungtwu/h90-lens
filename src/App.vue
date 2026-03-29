@@ -15,6 +15,8 @@ const {
   loadError,
   loadAlgorithms,
   setSearch,
+  toggleDemoOnly,
+  demoOnly,
   toggleCategory,
   getAlgorithmByName,
   toSlug,
@@ -84,12 +86,23 @@ onUnmounted(() => {
         <span class="text-xs text-muted">Firmware 1.12.5</span>
       </div>
       <SearchBar ref="searchBar" @update:search="setSearch" />
-      <CategoryFilters
-        :categories="categories"
-        :active-categories="activeCategories"
-        :category-counts="categoryCounts"
-        @toggle="toggleCategory"
-      />
+      <div class="flex items-center gap-3">
+        <CategoryFilters
+          class="flex-1 min-w-0"
+          :categories="categories"
+          :active-categories="activeCategories"
+          :category-counts="categoryCounts"
+          @toggle="toggleCategory"
+        />
+        <button
+          class="filter-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border border-white/15 text-muted hover:border-accent hover:text-white transition-all duration-200 cursor-pointer shrink-0"
+          :class="{ '!bg-red-500/20 !text-red-400 !border-red-500/50': demoOnly }"
+          @click="toggleDemoOnly"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Demo
+        </button>
+      </div>
     </div>
   </header>
 

@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 const allAlgorithms = ref([])
 const searchQuery = ref('')
 const activeCategories = ref(new Set())
+const demoOnly = ref(false)
 const isLoaded = ref(false)
 const loadError = ref(null)
 let isLoading = false
@@ -26,12 +27,16 @@ const filteredAlgorithms = computed(() => {
     if (activeCategories.value.size > 0 && !activeCategories.value.has(algo.category)) {
       return false
     }
+    if (demoOnly.value && !algo.demoVideoId) {
+      return false
+    }
     if (query) {
       const nameMatch = algo.name.toLowerCase().includes(query)
       const paramMatch = algo.parameters.some((p) => p.name.toLowerCase().includes(query))
       // Fix #2: null safety for overview
       const overviewMatch = (algo.overview || '').toLowerCase().includes(query)
-      if (!nameMatch && !paramMatch && !overviewMatch) return false
+      const presetMatch = (algo.presets || []).some((p) => p.toLowerCase().includes(query))
+      if (!nameMatch && !paramMatch && !overviewMatch && !presetMatch) return false
     }
     return true
   })
@@ -59,6 +64,10 @@ export function useAlgorithms() {
 
   function setSearch(query) {
     searchQuery.value = query
+  }
+
+  function toggleDemoOnly() {
+    demoOnly.value = !demoOnly.value
   }
 
   function toggleCategory(category) {
@@ -89,11 +98,13 @@ export function useAlgorithms() {
     categories,
     categoryCounts,
     activeCategories,
+    demoOnly,
     searchQuery,
     isLoaded,
     loadError,
     loadAlgorithms,
     setSearch,
+    toggleDemoOnly,
     toggleCategory,
     getAlgorithmByName,
     toSlug,

@@ -14,6 +14,8 @@ Browse 76 algorithms across 12 categories with instant search, parameter details
 
 [Live Site](https://h90-lens.tsungtwu.dev) | [H90 Manual](https://cdn.eventideaudio.com/manuals/h90/latest/content/algorithms/index.html)
 
+![H90 Lens Screenshot](docs/screenshot.png)
+
 </div>
 
 ---
@@ -21,8 +23,12 @@ Browse 76 algorithms across 12 categories with instant search, parameter details
 ## Features
 
 - **76 Algorithms** — All algorithms across 12 categories (Delay, Reverb, Modulation, Distortion, etc.)
-- **Instant Search** — Filter by algorithm name, parameter name, or overview text with 150ms debounce
+- **Instant Search** — Filter by algorithm name, parameter name, overview text, or preset name
 - **Category Filters** — Multi-select pill buttons with count badges
+- **Demo Filter** — One-click filter to show only algorithms with official Eventide sound demos
+- **YouTube Demos** — Direct links to official Eventide demo videos for 21 algorithms
+- **Factory Presets** — 847 factory preset names displayed in detail modal
+- **Shareable Links** — Copy link button in detail modal; deep link to any algorithm via `#algo=<slug>`
 - **Parameter Info Bar** — Hover or click any parameter tile to see its description and range; click to lock
 - **Detail Modal** — Full verbatim parameter descriptions from the official H90 manual
 - **Performance Parameters** — Circular badges showing performance knobs (Repeat, Self Osc, etc.)

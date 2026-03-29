@@ -70,6 +70,21 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "Guitars in Space",
+      "Haw Echoes1",
+      "Haw Echoes2",
+      "Hidden Pillars",
+      "LastFewBricks2",
+      "Over The Rainbow",
+      "Phasery Band",
+      "Phasery Band2",
+      "Reggae WahDelay Dark",
+      "Time Slips1",
+      "Time Slips2",
+      "Time Slips3",
+      "Wah Echo1"
     ]
   },
   {
@@ -145,6 +160,16 @@
         "name": "Retrigger",
         "description": "Retriggers the modulation LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "demoVideoId": "DEMHQ-Bi9KM",
+    "presets": [
+      "Allium",
+      "Flower Power",
+      "Gimme Some Reggae",
+      "LeakyBucket",
+      "Nice Slap",
+      "Rosebud",
+      "Unintended"
     ]
   },
   {
@@ -218,6 +243,30 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "1.. And 2",
+      "Ambient Delay",
+      "AnothrBrick1",
+      "Big Nice Day",
+      "Big Warm Digital",
+      "Bridge Of Sighs",
+      "ChorusyTrem",
+      "ComfNumbVerse",
+      "Copy Cat",
+      "DDLY",
+      "Dual Big Warm Digital",
+      "EVPREMIX",
+      "Filtered Digital",
+      "Flaser",
+      "LastFewBricks1",
+      "Pristine Digital Delay",
+      "RunRunRun",
+      "Storm Brewing1",
+      "Storm Brewing2",
+      "Trem Delays",
+      "TwinDelay",
+      "What I'm Looking For"
     ]
   },
   {
@@ -291,6 +340,13 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "ComfNumbSolo",
+      "Country Compressor",
+      "DontLeaveMe",
+      "ThinIce",
+      "Volume Swell Helper"
     ]
   },
   {
@@ -364,6 +420,15 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "GooeyFilterOPong",
+      "Nice Thick Thickener",
+      "Pong Echoes",
+      "Schizo Delay",
+      "Science Museum",
+      "Springy Verb",
+      "WubbaWubbaWub"
     ]
   },
   {
@@ -447,6 +512,18 @@
         "name": "Breakdown",
         "description": "Someone pulled the plug, the servos have decided they’re tired of spinning. Either way things really seem to be s l o w i n g d o w …"
       }
+    ],
+    "demoVideoId": "QZHscW4CkIw",
+    "presets": [
+      "DeadSpace",
+      "Head Space",
+      "Heartbreak Vibe",
+      "MultiTape Tap",
+      "Old Age Deviant",
+      "Shorty Pickin",
+      "Warm Slap",
+      "Whole Lotta Drive",
+      "Wild Echoes"
     ]
   },
   {
@@ -520,6 +597,18 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "1.. And 2 Mod",
+      "ChorusPhase No Delay",
+      "Creepy",
+      "Every Lead You Fake",
+      "Funk Echo",
+      "LazyPhasy",
+      "Lost Lunch",
+      "Pedal Pitch",
+      "PhaserEcho1",
+      "PhaserEcho2"
     ]
   },
   {
@@ -593,6 +682,24 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "500 Seater",
+      "Airplane Hanger",
+      "Ambient Multi",
+      "AutoMarch",
+      "Big SwellPad1",
+      "EmptySpace",
+      "Galloper Multi",
+      "Ghost Town",
+      "King's Missile",
+      "Multi Hall",
+      "Multi WetLive",
+      "Strummer",
+      "Strummer2",
+      "Tapomatic",
+      "Tapper",
+      "Worms"
     ]
   },
   {
@@ -666,6 +773,21 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "Backwards All",
+      "Backwards All2",
+      "Backwards Riffs",
+      "Dring Modulator",
+      "Ethereal Echoes",
+      "Inside Out",
+      "Ramp Up Reverse",
+      "Reverse Flutters",
+      "Reverse Flutters2",
+      "Reverse No Crystals",
+      "Reverse Space",
+      "Reverse Space2",
+      "Reverse Space3"
     ]
   },
   {
@@ -739,6 +861,20 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "Be Wowed",
+      "Classic Slap",
+      "Echo",
+      "Fibonacci Tape",
+      "FlutterWow",
+      "Lennon Slap",
+      "Multi Slap",
+      "Record Head",
+      "ReelToReel",
+      "Tape For Vocals",
+      "TapeDrone",
+      "Warped Record"
     ]
   },
   {
@@ -818,6 +954,28 @@
         "name": "Retrigger",
         "description": "Retriggers the modulation LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "presets": [
+      "Batman",
+      "Bouncing Ball",
+      "Bullfrog",
+      "Chop Hall",
+      "Clockworks",
+      "Disappearing Hall",
+      "Follow Me",
+      "Ghosthunter",
+      "GlitchTrigger",
+      "Huh Flange",
+      "Mosquito",
+      "Nano Studder",
+      "Six Pulsing",
+      "Slowing Down",
+      "Stutter",
+      "Synth Ghosts",
+      "TapSlap",
+      "UltraSwell",
+      "UltraTap",
+      "ZipperVerb"
     ]
   },
   {
@@ -891,6 +1049,25 @@
         "name": "Repeat",
         "description": "A momentary or latching parameter that sets the feedback to the highest value."
       }
+    ],
+    "presets": [
+      "20 Years Racked",
+      "Ambient Vintage",
+      "Classic Chorus",
+      "FoundIt",
+      "Lo-Rez Trail",
+      "Long Old Delays",
+      "Long Vintage H9",
+      "Long Vintage2",
+      "Nice Old Echoes",
+      "Rotten Old Delay",
+      "SlapVintage",
+      "Streets",
+      "Two Vintage Echoes",
+      "UBetterRun",
+      "Vintage Filtered Echoes",
+      "Vintage Vocal",
+      "Where The Avenues Have No Name"
     ]
   },
   {
@@ -992,7 +1169,8 @@
         "name": "Retrig",
         "description": "Retriggers the LFO of Pump Rate."
       }
-    ]
+    ],
+    "demoVideoId": "WZp23VHySus"
   },
   {
     "name": "CrushStation",
@@ -1060,7 +1238,23 @@
         "fullDescription": "Cut and Boost higher frequencies to mellow out the sound or emphasize higher harmonics."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Bass Crush",
+      "Bisque",
+      "Bottom Feeder",
+      "Crawdaddy",
+      "Decapod Muff",
+      "Fra Diavolo",
+      "Fuzz Condition",
+      "Jumbo Shrimp",
+      "Metal",
+      "Power Crush",
+      "PunkRock Lobster",
+      "Sag Harbor",
+      "Scuttle Butter",
+      "Steamed in Beer"
+    ]
   },
   {
     "name": "PitchFuzz",
@@ -1128,7 +1322,47 @@
         "fullDescription": "Adjusts the amount of feedback for both delays and contains two feedback types (F1 and F2). F1 links both delay times to create a rhythmic, repeating pattern where the longer delay sets the pattern length. The shorter delay will not repeat again until the longer delay has passed. F2 is a traditional feedback control, where delay times are independent."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "3 Octaves",
+      "Arpeggiate",
+      "Atmospheres",
+      "Big Bass Synth",
+      "Boogie Oogie Bass",
+      "Cherub",
+      "Chorus and Delay",
+      "Cobbler Triads",
+      "Copeland",
+      "Delicate Trinkets",
+      "Dovers Peach",
+      "Fripper Fuzz",
+      "Fruit In The Rain",
+      "FuzzStack",
+      "FuzzyMass",
+      "Goof Delays",
+      "Harp Chords",
+      "Hot McAdam",
+      "Juiced Up Bass",
+      "Just the Fuzz",
+      "LawfulKnowledge",
+      "Lethal Weapon 7",
+      "Mima Lead",
+      "Muscle",
+      "OhYouAteOneToo",
+      "Organizor",
+      "Peach Dog",
+      "Peach Slap",
+      "Peach-Tavia",
+      "Peaches KICK IT",
+      "Pitch Busters",
+      "R U Fuzz",
+      "Schnapps",
+      "Space Peach",
+      "Suspended Peach",
+      "Weird Orchestra",
+      "WholeLottaPeach",
+      "Working Man Bass"
+    ]
   },
   {
     "name": "Sculpt",
@@ -1202,7 +1436,32 @@
         "fullDescription": "Split features unique spectral panning effects that spread the hi and lo bands out into the separate channels. Dual Mono outputs the same signal to both outputs channels."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Airbag",
+      "AntiWah",
+      "Butter Churner",
+      "Captain Crunch",
+      "Chisel",
+      "Dirt Boost",
+      "Dissect",
+      "Embwahss",
+      "Funke Biass",
+      "Fuzzy Pillow",
+      "Honki Tonki",
+      "Jazzy Box",
+      "Land O Lakes",
+      "Little Speaker",
+      "Meow Wow",
+      "MuthaShip Connect",
+      "Rumble Down Lo",
+      "Sculpt",
+      "Sculpt Da Bass",
+      "UFO Shred",
+      "Wahcraft",
+      "Wahvolver",
+      "Wizards Tele"
+    ]
   },
   {
     "name": "WeedWacker",
@@ -1276,7 +1535,19 @@
         "fullDescription": "Final output level control for the stage."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "demoVideoId": "mhm8cMGOCmI",
+    "presets": [
+      "Bass Overdrive",
+      "Bass Overdrive 2",
+      "Hairy Distortion",
+      "Light n Bright",
+      "Slap Drive",
+      "Slasher",
+      "Stank Drive",
+      "Tight Drive",
+      "WeedWacker"
+    ]
   },
   {
     "name": "EQ Compressor",
@@ -1344,7 +1615,40 @@
         "fullDescription": "Controls the level at the output of the signal path. Provides 12 dB of boost or 12 dB of attenuation. The Algorithm is designed to “gracefully” clip if there is too much gain inside the EQ."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "AcousticElec",
+      "Balls",
+      "Basonex",
+      "BassPre2",
+      "BassPre3",
+      "BassPre4",
+      "BassyBass",
+      "Bootyshaker",
+      "Bright",
+      "DiscoGuit",
+      "DubBass",
+      "Flat EQ",
+      "FunkGuit",
+      "Fuzz Conditioning",
+      "JCM to Metal",
+      "JazGuitar",
+      "Leo to Les",
+      "Les to Leo",
+      "Mountain1",
+      "ParkedWah",
+      "PaulsBass1",
+      "PaulsBass2",
+      "SM58Enhancer",
+      "SlapBass1",
+      "SlapBass2",
+      "Sweet Home",
+      "SweetVocal",
+      "Telephony",
+      "VocalPresence",
+      "Walkingbass",
+      "Walkingbass 2"
+    ]
   },
   {
     "name": "Cosmic Web",
@@ -1439,7 +1743,8 @@
         "name": "Dump",
         "description": "Clears the memory of both voices, silencing any sustained grains."
       }
-    ]
+    ],
+    "demoVideoId": "0jEvzZPuzbU"
   },
   {
     "name": "Glitch",
@@ -1558,7 +1863,8 @@
         "name": "Glitch M",
         "description": "Momentary glitch that is active only while the footswitch is held."
       }
-    ]
+    ],
+    "demoVideoId": "0jEvzZPuzbU"
   },
   {
     "name": "GrainMod",
@@ -1631,7 +1937,8 @@
         "name": "Retrigger",
         "description": "Resets all LFO waveform cycles to their starting position."
       }
-    ]
+    ],
+    "demoVideoId": "0jEvzZPuzbU"
   },
   {
     "name": "Stutter",
@@ -1754,7 +2061,8 @@
         "name": "Retrigger",
         "description": "Resets the LFO waveform to its starting position."
       }
-    ]
+    ],
+    "demoVideoId": "0jEvzZPuzbU"
   },
   {
     "name": "Crystals",
@@ -1827,6 +2135,21 @@
         "name": "Flex",
         "description": "Shifts both voices up one octave."
       }
+    ],
+    "presets": [
+      "AreYouThere",
+      "Classic Crystals",
+      "Crystal Dance",
+      "Eerie Cavern",
+      "From A Bad Dream",
+      "NS Reverb",
+      "Pitch A La V",
+      "Reverse Detune",
+      "ReverseLows",
+      "Seagulls",
+      "Steampunk",
+      "Voice On Ice",
+      "WeirdBass"
     ]
   },
   {
@@ -1906,6 +2229,19 @@
         "name": "Learn",
         "description": "Press-and-hold the Learn switch while playing a note and the H90 will set the key to that note."
       }
+    ],
+    "presets": [
+      "BassToy",
+      "CopyCatDelay",
+      "Delayed 3rd and 5th",
+      "Emaj 3rd+",
+      "Guitar Toy",
+      "Octave Long Delay",
+      "Storyteller",
+      "The Thief",
+      "Third Dreaming I",
+      "Try EEEEEEEE",
+      "Wyld Stallions"
     ]
   },
   {
@@ -1979,6 +2315,34 @@
         "name": "Repeat",
         "description": "Press-and-hold for infinite repeat."
       }
+    ],
+    "presets": [
+      "1984Legs",
+      "1984Panama",
+      "3 Octave Range",
+      "949 Chorus",
+      "Backing Vocal",
+      "Ballerina",
+      "Bum-Ba-Dum",
+      "ChnelVocals1",
+      "Country Slap",
+      "Dly1",
+      "Dly2",
+      "DlyDotSweet",
+      "DlyOctave",
+      "Echoes of 910 Past",
+      "Fat H910",
+      "GuitBassChorus",
+      "Guitchnel",
+      "Insanity Build",
+      "Photon Beam",
+      "Powerchord",
+      "Rising Swim",
+      "Shatter",
+      "Slap",
+      "Spicy Spring",
+      "VoxDly",
+      "WomenInLove"
     ]
   },
   {
@@ -2052,6 +2416,21 @@
         "name": "Flex",
         "description": "Shifts both voices up one octave."
       }
+    ],
+    "presets": [
+      "Bass Min Maj Mod",
+      "BassGuitSolo",
+      "Chromatic Delay",
+      "Elec12String Roo",
+      "Foreboding",
+      "Lightside Darkside",
+      "Munchkin Whales",
+      "One Finger Power",
+      "Photon Pistol",
+      "Planet Obelisk",
+      "Psycho Waiting",
+      "Trance Octaves",
+      "VaiBallerina"
     ]
   },
   {
@@ -2125,6 +2504,25 @@
         "name": "Restart",
         "description": "Restarts the sequence from the beginning."
       }
+    ],
+    "presets": [
+      "BassWith Arps",
+      "BigChill",
+      "BoilingSolo",
+      "Bubbles",
+      "DownUp",
+      "Fake Shredding",
+      "Get Them Kids Moving",
+      "Hypernotes Arp",
+      "Intellivision",
+      "LightEmUp",
+      "Machines",
+      "Menace",
+      "Molten",
+      "Old Video Game",
+      "Rave Vocals",
+      "SpaceTrem",
+      "TremBot"
     ]
   },
   {
@@ -2210,6 +2608,19 @@
         "name": "Flex",
         "description": "Doubles the pitch shift amount of both voices."
       }
+    ],
+    "presets": [
+      "BassChorus(es)",
+      "Bottomless Drop",
+      "Chorus Room",
+      "DarkEchoes",
+      "Elevator Delays",
+      "H3000 MicroPitch",
+      "NiceChorus",
+      "Slap My Echo",
+      "Spacey Springs",
+      "Thick",
+      "VibraChorus"
     ]
   },
   {
@@ -2278,7 +2689,18 @@
         "fullDescription": "Controls the mix of octaves and fuzz."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Bass Voweler Growl",
+      "Classic Octaver",
+      "Crab Bass",
+      "Drty Vocals",
+      "Massivuzz",
+      "NazztyBass",
+      "OctoFuzzver",
+      "ThroatyBass",
+      "WahElectronique"
+    ]
   },
   {
     "name": "PitchFlex",
@@ -2357,6 +2779,24 @@
         "name": "Flex",
         "description": "Sweep the pitch shift from ‘toe’ to ‘heel’ position."
       }
+    ],
+    "presets": [
+      "Flex Harmony +2nd",
+      "Flex Harmony +3rd",
+      "Flex Harmony +4th",
+      "Flex Harmony +5th",
+      "Flex Harmony +FL",
+      "Flex Harmony -1oct",
+      "Flex Harmony -4th",
+      "Flex Harmony -5th",
+      "Octave Flexswitch",
+      "Pitch Flex +1oct",
+      "Pitch Flex +2oct",
+      "Pitch Flex -1oct",
+      "Pitch Flex -2Oct",
+      "Pitch Flex -2nd",
+      "Pitch Flex -4th",
+      "Pitch Flex Unison & +5th +2nd +6th"
     ]
   },
   {
@@ -2466,7 +2906,8 @@
         "name": "Freeze",
         "description": "Freezes the pitch-shifiting sound for pad like textures. The dry signal is still passed through. Note that if Auto Engage is On, you won’t hear the frozen signal when you are not flexing."
       }
-    ]
+    ],
+    "demoVideoId": "_nLhPQ6mshI"
   },
   {
     "name": "Polyphony",
@@ -2575,6 +3016,21 @@
         "name": "Freeze",
         "description": "Freezes the pitch-shifiting sound for pad like textures. The dry signal is still passed through."
       }
+    ],
+    "demoVideoId": "wv6VWxAVBfE",
+    "presets": [
+      "12 Stringy",
+      "Bass Poly Octaver",
+      "Diamond Stuff",
+      "Hesitate",
+      "Jazz Vibes",
+      "Key Like",
+      "Low Down",
+      "Poly Chorus",
+      "PolyOctaver",
+      "PolyRhythm",
+      "Polyphony",
+      "The Show"
     ]
   },
   {
@@ -2664,6 +3120,24 @@
         "name": "Shift M",
         "description": "Moves the current value of the shift knob 1 position clockwise, wrapping if necessary."
       }
+    ],
+    "demoVideoId": "2i82eDeZcUk",
+    "presets": [
+      "All A Dream",
+      "Arp Dancer",
+      "Deep Echoes",
+      "Diamond Shine",
+      "End Of All",
+      "Glimmer Verb",
+      "Glitter",
+      "Hallowed Grounds",
+      "Ocean Waves",
+      "Prism Ballet",
+      "Prism Shift",
+      "Sequential Chimes",
+      "Suspense",
+      "Unraveling",
+      "Water Reflections"
     ]
   },
   {
@@ -2743,6 +3217,17 @@
         "name": "Learn Mode",
         "description": "Press and hold the Learn switch while playing a note and the H90 will set the key to that note."
       }
+    ],
+    "presets": [
+      "Anthem",
+      "Banjo Strummer",
+      "Good Morning Sun",
+      "GuitarHarp",
+      "Heavy Quad Octav",
+      "If It's Baroque",
+      "MoodSwitch",
+      "PitchDrama",
+      "Teenage Wasteland"
     ]
   },
   {
@@ -2811,7 +3296,29 @@
         "fullDescription": "Same as Note 1."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Andy Warhol On The Run",
+      "Beecuz",
+      "Cascade",
+      "Cavern",
+      "Clean Delay",
+      "Dissonant Repeater",
+      "Electrons",
+      "Filtered Multitap",
+      "Gumdrop",
+      "Raag Malhar",
+      "Reno",
+      "ResoVerb",
+      "Saverence",
+      "Scary Chord",
+      "Spelunking",
+      "Submerged",
+      "The Beautiful",
+      "Thor's Bells",
+      "Tick Tock",
+      "Transcendental Dolphin"
+    ]
   },
   {
     "name": "Quadravox+",
@@ -2940,7 +3447,8 @@
         "name": "Glide Mom",
         "description": "Momentary pitch shift to glide interval; returns when released."
       }
-    ]
+    ],
+    "demoVideoId": "3vESJN9bcHM"
   },
   {
     "name": "VocalShift",
@@ -3101,7 +3609,8 @@
         "name": "Hold",
         "description": "Latching version of Hold M; sustains voice pitches until disengaged."
       }
-    ]
+    ],
+    "demoVideoId": "kHTMKCMvtB8"
   },
   {
     "name": "VocalShiftMIDI",
@@ -3242,7 +3751,8 @@
         "name": "Freeze M",
         "description": "Momentary freeze of input signal; releases when footswitch is released."
       }
-    ]
+    ],
+    "demoVideoId": "kHTMKCMvtB8"
   },
   {
     "name": "VocalTune",
@@ -3334,7 +3844,8 @@
         "fullDescription": "Threshold of noise gate."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "demoVideoId": "kHTMKCMvtB8"
   },
   {
     "name": "Looper",
@@ -3437,6 +3948,18 @@
         "name": "Speed",
         "description": "Toggles the speed of the loop between full speed and half speed. At half speed the range of the Play Speed parameter will be limited to +/- 100."
       }
+    ],
+    "presets": [
+      "16 Beat Auto Loop",
+      "16 Beat Reverse Start",
+      "48 Beat Basic Looper",
+      "8 Beat Punch",
+      "8 Beat Punch Replace",
+      "Basic Looper",
+      "Dub Decay Looper",
+      "LoFi 16 Beat",
+      "Long Basic Looper",
+      "Thin Loop"
     ]
   },
   {
@@ -3522,6 +4045,17 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "70s Guitar Chorus",
+      "Big Clone",
+      "Chorus Bumps",
+      "Liquid Sweetener",
+      "PhasyChorus",
+      "Polymodelicious",
+      "Pulsating",
+      "Spinning",
+      "Warmth"
     ]
   },
   {
@@ -3577,6 +4111,15 @@
         "name": "Retrigger",
         "description": "Retriggers the LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "demoVideoId": "M7f664uatfs",
+    "presets": [
+      "Air Bubbles",
+      "Ebb & Flow",
+      "Even-Vibe",
+      "Indigo Fog",
+      "Slowly Drifting",
+      "Widevibe"
     ]
   },
   {
@@ -3662,6 +4205,21 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "Barrel Roll",
+      "ClassicFlangeSweep",
+      "ClassicFlangeSweep2",
+      "Long Flyby",
+      "PulserFlange",
+      "PulsingFlange",
+      "PulsingFlange2",
+      "PulsingWowFlange",
+      "Rotator Flange",
+      "Subtle-Drastic Flange",
+      "SubtleFlange",
+      "SubtleFlange2",
+      "SugarFlange"
     ]
   },
   {
@@ -3735,6 +4293,39 @@
         "name": "Retrigger",
         "description": "Retriggers the LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "presets": [
+      "Basic Triangle",
+      "Bass Compping",
+      "Bass Pulser",
+      "Bouncing Ball",
+      "Delta Slide",
+      "Double Banded",
+      "Dreamy",
+      "Echo Morph",
+      "Epic Windmills",
+      "Giant Step",
+      "Lonely Sea",
+      "Master Of Bands",
+      "Mostly Harm-less",
+      "Movin Along",
+      "Only Tails",
+      "Phaaaseeey",
+      "Phriendly Vibe",
+      "Pluck Fade",
+      "Pseudo Ring",
+      "Quicksand",
+      "Rotophase",
+      "Rotowah",
+      "Sandblaster",
+      "Shades",
+      "Slowah",
+      "Strum Pulse Decay",
+      "Thumpluck",
+      "Toasted Marsh-molo",
+      "T-rem-o-ring",
+      "Tulsa Tornado",
+      "Tumbleweed"
     ]
   },
   {
@@ -3808,6 +4399,22 @@
         "name": "Retrigger",
         "description": "Retriggers the LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "demoVideoId": "kxrBRJVejjs",
+    "presets": [
+      "Bending Corn",
+      "EXP Pedal Flange",
+      "Elastic Dreams",
+      "Fairy Wings",
+      "Flange the Attack",
+      "Flanjo",
+      "Ginormous Bass",
+      "Instant Flanger",
+      "Instant Ra Man",
+      "Mids Come Alive",
+      "Rotary Flange",
+      "Through the Tube",
+      "Vintage Mod"
     ]
   },
   {
@@ -3881,6 +4488,22 @@
         "name": "Retrigger",
         "description": "Retriggers the LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "demoVideoId": "kxrBRJVejjs",
+    "presets": [
+      "Attack the Strings",
+      "EXP Pedal Phase",
+      "EXPress Yourself",
+      "Emotional Width",
+      "Expansion Pedal",
+      "Fine Faze",
+      "Flutter",
+      "Id Coming Through",
+      "Instant Phaser",
+      "Live Wire",
+      "Low Mid Phase",
+      "Pink Phase",
+      "Slow & Low"
     ]
   },
   {
@@ -3966,6 +4589,16 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "Bass Auto Wah",
+      "BubblyFilter",
+      "HyperWah",
+      "Jupiter Reacts",
+      "Nervous Filter",
+      "TremModFilter",
+      "WateryFilter Dark",
+      "WateryFilterBright"
     ]
   },
   {
@@ -4051,6 +4684,16 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "Ain't Talkin 'Bout Phase",
+      "FunkPhase",
+      "Lou-nivibe",
+      "Phaser Wah",
+      "Phat Phase",
+      "SawModPhaser",
+      "StoppedPhase",
+      "VibraPhaser"
     ]
   },
   {
@@ -4136,6 +4779,26 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "Auto Wah",
+      "BigModdedPlanetSweep",
+      "High Quack",
+      "LazyPhasyWah",
+      "LessEvenAutoWah",
+      "Low Quack",
+      "Mumbler",
+      "Nervous Wah",
+      "OttaWah",
+      "PhasyWah",
+      "SlowSweepWithTreats",
+      "SoftChopper",
+      "SquareModWah",
+      "Talking Back",
+      "Talking Bass",
+      "VibraPhasyWah",
+      "Vintage Wah",
+      "Wah-Bravibe"
     ]
   },
   {
@@ -4221,6 +4884,23 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "BuzzBells",
+      "ElectricityRing",
+      "Guitar Drums",
+      "HellsBells",
+      "Interference",
+      "Ring Whammy",
+      "Ring's Chorus",
+      "Ring's Leslie Fast",
+      "Ring's Leslie Slow",
+      "Ring's Trem",
+      "Ring's Trem 2 Faster",
+      "Ring's Trem2",
+      "Static",
+      "Trem Turns Ugly",
+      "What's That Smell"
     ]
   },
   {
@@ -4306,6 +4986,21 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "AutoFastSlowRotary",
+      "AutoFastSlowRotary2",
+      "BassStillRotary",
+      "Big Fat Cabinet",
+      "Black Sun",
+      "Hyper Rotor",
+      "JazzyRotary",
+      "Leslie",
+      "OldTyme Radio",
+      "Slowly Rotate",
+      "Spaceship Rotary",
+      "Treble Spin",
+      "Whirling Dervish"
     ]
   },
   {
@@ -4383,7 +5078,8 @@
         "name": "Flange",
         "description": "A latching performance switch which simply turns on or off an automatic flange."
       }
-    ]
+    ],
+    "demoVideoId": "EZqQptHbT0w"
   },
   {
     "name": "TremoloPan",
@@ -4468,6 +5164,19 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "Chopper Trem",
+      "Flutter Trem",
+      "HyperChopTrem",
+      "I Walk Alone",
+      "Modacity",
+      "Panning Tremo",
+      "Pulsing Trem",
+      "RampChopper",
+      "Special Agent Factor",
+      "Square Chopper",
+      "Tumbleweed Trem"
     ]
   },
   {
@@ -4545,6 +5254,35 @@
         "name": "Retrigger",
         "description": "Retriggers the LFOs to the beginning of their cycles. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "presets": [
+      "2+3=5",
+      "CEO",
+      "CFO",
+      "Chorus Lap",
+      "DCUK",
+      "FauxVerb",
+      "GH0$TZ",
+      "Leslie Falsa",
+      "Lush Life",
+      "Old Times",
+      "Paschorius",
+      "Raven Chorus",
+      "Rum Punch",
+      "Schmozone",
+      "Slow Flange",
+      "Slow Swirl",
+      "Summer",
+      "Swirl Slap",
+      "Syrupy Leslie",
+      "Tail Decay",
+      "Tribrato",
+      "TriceraChorus",
+      "Very Stern",
+      "Vibecore",
+      "Vibrato",
+      "Yello Fin",
+      "Zwarbl"
     ]
   },
   {
@@ -4630,6 +5368,19 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "Chopdulator",
+      "Cloud Pulse",
+      "Dreamdulator",
+      "DreamyDreamulator",
+      "DreamyDreamulator2",
+      "Haze Cutter",
+      "Lonesome Trail",
+      "Never There",
+      "Quadruple Peaks",
+      "Time Lapse",
+      "Tremdulator"
     ]
   },
   {
@@ -4715,6 +5466,16 @@
         "name": "Brake M",
         "description": "Slows the LFOs at a constant rate and pauses the LFOs until the switch is released."
       }
+    ],
+    "presets": [
+      "DynaVibrato",
+      "Quiverer",
+      "Swamp Moon",
+      "VibraPhaser2",
+      "VibraVibe",
+      "VibraVibe2",
+      "VibraViby",
+      "Warped Vinyl"
     ]
   },
   {
@@ -4783,7 +5544,32 @@
         "fullDescription": "Adjusts the amount of feedback for both delays and contains two feedback types (F1 and F2). F1 links both delay times to create a rhythmic, repeating pattern where the longer delay sets the pattern length. The shorter delay will not repeat again until the longer delay has passed. F2 is a traditional feedback control, where delay times are independent."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Aphelion",
+      "EventHorizon",
+      "ExtraTerrestrial",
+      "Faux Leslie",
+      "Gravitation",
+      "Hubble",
+      "IntaStella",
+      "Nice Chorus",
+      "Off the Ground",
+      "On the Verge",
+      "Outer Limits",
+      "Parallel Delays",
+      "Quarter Delay",
+      "Shadows",
+      "Slap in Space",
+      "Small Tight Room",
+      "Space Cathedral",
+      "SpaceTime",
+      "Star Sailor",
+      "Sunlight",
+      "TwilightZoned",
+      "Verb Repeats Only",
+      "Voyage"
+    ]
   },
   {
     "name": "Blackhole",
@@ -4851,7 +5637,25 @@
         "fullDescription": "Controls the resonance of the Low-level and High-level filters. When the filters are set to 0, this does nothing, but when they are active, it can create a much more filtered sound. But be careful, extreme settings will increase the chances of overloads."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "AmeBlackDrone",
+      "Blackhole",
+      "Centaurus",
+      "Cigaroos",
+      "Dark Matter",
+      "Dogstar",
+      "FishHole",
+      "Hey Honey",
+      "Nebula",
+      "Neutrino",
+      "Pulsar",
+      "Pulsar II",
+      "StarCrater",
+      "Train Tracks",
+      "Transfigured",
+      "Vortexting"
+    ]
   },
   {
     "name": "DualVerb",
@@ -4919,7 +5723,14 @@
         "fullDescription": "Tone control for the reverb. Negative values bring out the lows, while positive values bring out the highs."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "DualVerb",
+      "Echo Verbs",
+      "Empty Streets",
+      "HotSw Freeze",
+      "SpaceGallop"
+    ]
   },
   {
     "name": "DynaVerb",
@@ -4987,7 +5798,15 @@
         "fullDescription": "The mixer to the sidechain input (gain control signal). When set to minimum, the gain curve is derived from the input only. At maximum, it is a feedback dynamics unit with gain derived from the reverb output. In Omnipressor Mode, this simply lets you fade between a feedforward (FF) and feedback (FB) compressor/expander/gate/etc."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Adapt-A-Room",
+      "Ames Duck",
+      "DynaVerb",
+      "Phil Mcavity",
+      "Radio Static",
+      "Tap-n-Trem"
+    ]
   },
   {
     "name": "Hall",
@@ -5055,7 +5874,26 @@
         "fullDescription": "Boost/cut of mid reverb (between 300 and 1500 Hz), -100 effectively cuts all of the mid band reverb."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "1985 Damage",
+      "Amedeo-Slap",
+      "Carnegie Hall",
+      "Cave Space",
+      "Corridors",
+      "Dark Cave",
+      "DelayedPlate",
+      "Dish Delay",
+      "Doom Chamber",
+      "Earth Hall",
+      "Hall",
+      "Hi Fi",
+      "Kubrix",
+      "Panoromance",
+      "Phantom Verb",
+      "Tornadian",
+      "Vapor Trail"
+    ]
   },
   {
     "name": "MangledVerb",
@@ -5123,7 +5961,18 @@
         "fullDescription": "A modulation rate that does some spooky detuning."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "DoomDrive",
+      "DriveDoom",
+      "Fluffer",
+      "MangledVerb",
+      "MangledVern",
+      "Oblivion",
+      "Revunched",
+      "Sanskritual1",
+      "ScreamWarp"
+    ]
   },
   {
     "name": "ModEchoVerb",
@@ -5191,7 +6040,17 @@
         "fullDescription": "Tone control in the feedback loop of the echoes."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Ambience",
+      "Ekospace-God",
+      "Flange Tiles",
+      "JungleAppetite",
+      "Matrix Decay",
+      "ModEchoVerb",
+      "Planetarium1",
+      "SolarDelay"
+    ]
   },
   {
     "name": "Plate",
@@ -5259,7 +6118,18 @@
         "fullDescription": "A pre-reverberator tone control, -100 to 0 is darker, 0 to 100 is brighter."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Centauri",
+      "Dinner Plate",
+      "GuitPlate",
+      "Just Cuz",
+      "OilDrum",
+      "Plate",
+      "Pressure",
+      "Sift Plate",
+      "Space Plate"
+    ]
   },
   {
     "name": "Reverse Reverb",
@@ -5327,7 +6197,17 @@
         "fullDescription": "Increase the span between low and high crossover frequencies for the Low Level and High Level. Affects the sound unless Low Level and High Level are both set to 0."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Alien Verb",
+      "Continuum",
+      "Garble Space",
+      "Ghost Plate",
+      "Reflexive",
+      "Reverse",
+      "SpinDizzy",
+      "Tweet Off"
+    ]
   },
   {
     "name": "Room",
@@ -5401,7 +6281,17 @@
         "fullDescription": "Control the corner frequency of High Band Shelving. No affect if High Band Shelving parameter is is set to 0."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Boxy Ro0m",
+      "CanisMajor",
+      "Guitar Room",
+      "Lux Space",
+      "PCM60Room",
+      "Room",
+      "Room 667",
+      "Shutter Room"
+    ]
   },
   {
     "name": "SP2016 Reverb",
@@ -5469,7 +6359,18 @@
         "fullDescription": "Adjustable gain for the high shelf filter, from -8 to 0 dB."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "demoVideoId": "drLnfdSoiEM",
+    "presets": [
+      "Bedroom",
+      "Dessert Plate",
+      "Echo Room",
+      "Empty Auditorium",
+      "SP2016 Reverb",
+      "Vintage Plate",
+      "Vintage Room",
+      "Vintage Stereo"
+    ]
   },
   {
     "name": "Spring",
@@ -5549,7 +6450,19 @@
         "fullDescription": "Select from 2 different reverb tank size. Large and small."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "AmeSpring",
+      "Big`Balls",
+      "Dark Spring",
+      "Deluxe",
+      "Gutter Flange",
+      "RW Tank",
+      "Spicy Spring",
+      "Spring",
+      "Spring Time",
+      "SpringTheory"
+    ]
   },
   {
     "name": "Shimmer",
@@ -5617,7 +6530,22 @@
         "fullDescription": "Amount of post reverb and pitch-shifter mid band signal (this is in the feedback path)."
       }
     ],
-    "performanceParams": []
+    "performanceParams": [],
+    "presets": [
+      "Amedeo-Bass-Shim",
+      "Dark Angels",
+      "Demon Call",
+      "Gunshot Snare",
+      "Hells Gate",
+      "Ironworx",
+      "Mountains",
+      "Neros Ascent",
+      "Quasar",
+      "Shimmer",
+      "Size Matters",
+      "Sneaky Verb",
+      "Touched By An H9"
+    ]
   },
   {
     "name": "TremoloVerb",
@@ -5690,6 +6618,15 @@
         "name": "Retrigger",
         "description": "Retriggers the LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "presets": [
+      "ABitShakey",
+      "AmeTremVerb1",
+      "AmeTremVerb2",
+      "Broken Glitch",
+      "Horror Show",
+      "Splitter Verb",
+      "TremoloVerb"
     ]
   },
   {
@@ -5791,6 +6728,19 @@
         "name": "Warp M",
         "description": "Momentary footswitch. Hold to keep warp cycle engaged. Releasing before cycle completion generates a “deceleration” (decreasing pitch) sound to the warp effect."
       }
+    ],
+    "demoVideoId": "AKyESiGisCQ",
+    "presets": [
+      "Deep Spaced",
+      "Drowned Lands",
+      "Kessel Run",
+      "New Junk City",
+      "Snake Portal",
+      "Spaceplate",
+      "Spaceplate 2",
+      "Worm Delay",
+      "Wormhole",
+      "Wormhole Serpent"
     ]
   },
   {
@@ -5864,6 +6814,41 @@
         "name": "Retrigger",
         "description": "Retriggers the LFO to the beginning of the cycle. Useful for re-syncing during playback, or creative effects."
       }
+    ],
+    "presets": [
+      "Analog-ish Lead",
+      "Camino",
+      "Choo Choo",
+      "Dark Castle Bass",
+      "Drop Out of Warp",
+      "Faux Horns",
+      "Funky Sauce",
+      "Hot Bass",
+      "Knife Walker",
+      "Knife Walker 2",
+      "Laser Gun",
+      "Major HotSwitch",
+      "Melting Tones",
+      "Mtumeday",
+      "Pass Out Bass",
+      "Peppery Rezo Bass",
+      "Picante Pluck",
+      "Pitchup Synth",
+      "Poblano Peril",
+      "Pulsar",
+      "Sahuaro Staccato",
+      "Serrano Sub",
+      "Seventies Spicy Lead",
+      "Siren",
+      "Sonic Boom",
+      "Space Chihuahua",
+      "Synth Filter Bass",
+      "Synth Surfing",
+      "Synth Wah Bass",
+      "Tabasco",
+      "Top Gumdrop",
+      "Venus Attacks",
+      "Wasabi Lead"
     ]
   },
   {
@@ -6026,6 +7011,13 @@
         "name": "Flex",
         "description": "Shifts both voices up one octave when activated."
       }
+    ],
+    "presets": [
+      "Bassic Synth",
+      "FluteFactor",
+      "Motorbike Lead",
+      "TromboneFactor",
+      "Welcome To The Machine"
     ]
   },
   {

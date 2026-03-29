@@ -10,8 +10,8 @@
   --color-accent-dim: #C4652A;
   --color-cta: #22C55E;
   --color-muted: #94A3B8;
-  --font-heading: 'Righteous', cursive;
-  --font-body: 'Poppins', sans-serif;
+  --font-heading: 'Righteous', system-ui, -apple-system, sans-serif;
+  --font-body: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
 body {

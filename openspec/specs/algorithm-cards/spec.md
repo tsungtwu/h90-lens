@@ -10,6 +10,12 @@ Each algorithm SHALL be displayed as a card (`AlgorithmCard.vue`) showing the al
 - **WHEN** a card renders
 - **THEN** it SHALL display a category SVG icon, the algorithm name (Righteous font, italic uppercase), category label, and a "Detail →" button
 
+#### Scenario: YouTube demo button on card
+- **WHEN** a card renders for an algorithm with a `demoVideoId`
+- **THEN** a YouTube icon button with tooltip "Sound Demo" SHALL appear next to the "Detail →" button
+- **WHEN** the user clicks the YouTube button
+- **THEN** the demo video SHALL open in a new browser tab without triggering other card interactions
+
 #### Scenario: Overview display
 - **WHEN** an algorithm has a non-empty `overview` field
 - **THEN** the card SHALL display the overview text below the header
@@ -67,7 +73,7 @@ When an algorithm has more than 10 parameters, the parameter grid SHALL paginate
 - **THEN** "PAGE 1", "PAGE 2", etc. buttons SHALL appear below the grid
 
 ### Requirement: Detail modal
-A detail modal (`DetailModal.vue`) SHALL display full parameter information for an algorithm when the "Detail →" button is clicked. The modal SHALL include a "Copy Link" button for sharing.
+A detail modal (`DetailModal.vue`) SHALL display full parameter information for an algorithm when the "Detail →" button is clicked. The modal SHALL include a "Copy Link" button for sharing and a YouTube "Sound Demo" button when a demo video is available.
 
 #### Scenario: Modal content
 - **WHEN** the modal opens
@@ -80,6 +86,16 @@ A detail modal (`DetailModal.vue`) SHALL display full parameter information for 
 #### Scenario: Close modal
 - **WHEN** the user clicks the overlay, the close button, or presses Escape
 - **THEN** the modal SHALL close and focus SHALL return to the previously focused element
+
+#### Scenario: YouTube demo button in modal
+- **WHEN** the modal is open for an algorithm with a `demoVideoId`
+- **THEN** a YouTube icon button with tooltip "Sound Demo" SHALL be visible in the header
+- **WHEN** the user clicks the YouTube button
+- **THEN** the demo video SHALL open in a new browser tab
+
+#### Scenario: No demo video in modal
+- **WHEN** the modal is open for an algorithm without a `demoVideoId`
+- **THEN** no YouTube button SHALL be rendered
 
 #### Scenario: Copy link button
 - **WHEN** the modal is open
@@ -124,4 +140,40 @@ Algorithm cards SHALL display in a responsive grid in the main layout.
 #### Scenario: Mobile layout
 - **WHEN** the viewport is narrower than xl
 - **THEN** cards SHALL stack in a single column
+
+### Requirement: Demo video data
+Algorithms MAY have an optional `demoVideoId` field containing a YouTube video ID linking to an official Eventide demo video.
+
+#### Scenario: Video link format
+- **WHEN** a `demoVideoId` is present
+- **THEN** it SHALL be used to construct the URL `https://www.youtube.com/watch?v={demoVideoId}`
+
+### Requirement: Demo filter
+The app SHALL provide a toggle filter to show only algorithms with demo videos.
+
+#### Scenario: Demo filter active
+- **WHEN** the user clicks the "Demo" filter button
+- **THEN** only algorithms with a `demoVideoId` SHALL be displayed
+
+#### Scenario: Demo filter inactive
+- **WHEN** the user clicks the "Demo" filter button again
+- **THEN** the filter SHALL be removed and all algorithms SHALL be displayed
+
+### Requirement: Factory presets display
+The detail modal SHALL display factory preset names when available.
+
+#### Scenario: Presets section in modal
+- **WHEN** the modal is open for an algorithm with a non-empty `presets` array
+- **THEN** a "Factory Presets" section SHALL display all preset names as pill-style tags
+
+#### Scenario: No presets
+- **WHEN** the algorithm has no `presets` field or an empty array
+- **THEN** no presets section SHALL be rendered
+
+### Requirement: Preset search
+The search filter SHALL match against factory preset names.
+
+#### Scenario: Search by preset name
+- **WHEN** the user types a preset name in the search bar
+- **THEN** algorithms containing a matching preset SHALL appear in results
 

@@ -91,7 +91,18 @@ function onOverlayClick(e) {
               </div>
               <p class="text-xs text-muted uppercase tracking-widest mt-1 ml-8">{{ algo.category }} // H90</p>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-1">
+              <a
+                v-if="algo.demoVideoId"
+                :href="`https://www.youtube.com/watch?v=${algo.demoVideoId}`"
+                target="_blank"
+                rel="noopener"
+                title="Sound Demo"
+                aria-label="Watch sound demo on YouTube"
+                class="w-8 h-8 rounded-lg flex items-center justify-center transition-colors text-muted hover:text-red-500 hover:bg-white/5"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
               <button
                 :aria-label="copied ? 'Link copied' : 'Copy link to this algorithm'"
                 :class="[
@@ -145,6 +156,20 @@ function onOverlayClick(e) {
                 </span>
                 <span v-if="pp.description" class="text-slate-400 text-xs pt-1">{{ pp.description }}</span>
               </div>
+            </div>
+          </template>
+
+          <!-- Factory Presets -->
+          <template v-if="(algo.presets || []).length > 0">
+            <h3 class="text-xs font-bold text-muted uppercase tracking-widest mt-6 mb-3">Factory Presets</h3>
+            <div class="flex flex-wrap gap-2">
+              <span
+                v-for="preset in algo.presets"
+                :key="preset"
+                class="px-2.5 py-1 rounded-full text-xs bg-white/5 text-slate-300 border border-white/10"
+              >
+                {{ preset }}
+              </span>
             </div>
           </template>
         </div>

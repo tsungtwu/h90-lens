@@ -420,6 +420,9 @@ def merge_with_existing(new_algos: list[dict], existing_path: Path) -> list[dict
     existing_map = {a["name"]: a for a in existing}
     new_map = {a["name"]: a for a in new_algos}
 
+    # Fields added outside of extraction (e.g. manually curated data)
+    PRESERVE_FIELDS = {"demoVideoId", "presets"}
+
     merged = []
     for algo in existing:
         name = algo["name"]
@@ -475,7 +478,20 @@ def main():
     new_algos = fetch_all_algorithms(base_url)
     print(f"\nExtracted {len(new_algos)} algorithms total", file=sys.stderr)
 
-    if args.fresh or not output_path.exists():
+    if args.fresh and output_path.exists():
+        # Even in fresh mode, preserve manually curated fields
+        with open(output_path) as f:
+            old_data = json.load(f)
+        preserved = {}
+        for a in old_data:
+            extras = {k: v for k, v in a.items() if k in {"demoVideoId"}}
+            if extras:
+                preserved[a["name"]] = extras
+        for a in new_algos:
+            if a["name"] in preserved:
+                a.update(preserved[a["name"]])
+        result = new_algos
+    elif args.fresh:
         result = new_algos
     else:
         print(f"Merging with existing {output_path}...", file=sys.stderr)
